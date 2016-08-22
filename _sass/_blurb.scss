@@ -5,35 +5,10 @@ section.section__blurb {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url('../img/mike-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   .section__container {
     max-width: 80%;
   }
 }
-
-section.section__blurb {
-  position: relative;
-  overflow: hidden;
-}
-
-section.section__blurb {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.6;
-    background-image: url('../img/mike-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-  
-
-  
