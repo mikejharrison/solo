@@ -176,13 +176,3 @@ compress_html:
     envs: development
 
 
-# Plugin: jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: tag_index
-  permalinks:
-    tag: /tag/:name/
-
