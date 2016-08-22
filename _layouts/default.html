@@ -13,12 +13,13 @@ layout: compress
   <link rel="stylesheet" href="css/main.css">
 {% include head.html %}
 </head>
-{% include masthead.html %}
+
 <body>
-  <div class="container">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
-    {{ content }}
-  </div>
-{% include scripts.html %}
+  {% include masthead.html %}
+    <div class="container">
+      <h1><a href="./">{{ site.tag_text }}</a></h1>
+      {{ content }}
+    </div>
+  {% include scripts.html %}
 </body>
 </html>
