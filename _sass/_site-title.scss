@@ -1,11 +1,13 @@
  .container__home {
    .site--title {
     height: 100vh;
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url('https://github.com/mikejharrison/mikejharrison.github.io/blob/master/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     h1, h2, h3, h4, h5 , h6 {
      margin: 0;
      padding: 0;
