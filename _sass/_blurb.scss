@@ -1,4 +1,9 @@
 section.section__blurb {
+  height: 100vh;
   margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
   
