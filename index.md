@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-### Mike Harrison
+{% include blurb.html %}
