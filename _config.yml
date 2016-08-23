@@ -20,7 +20,7 @@ owner:
   instagram: mikeharrison84
   tumblr: #
   github: mikejharrison
-  github-repo: # 
+  github-repo: #
   google:
     ad-client: # ca-pub-7328585512091257
     ad-slot: # 3049671934
@@ -33,7 +33,7 @@ owner:
     verify: # Y5DYjZ4VWlrQzBP5kcQJeOKLNas
   yandex:
     verify: # 55a5419baf76a498
-  bio: "Just another boring, tattooed, time traveling designer."
+  bio: "ELT freelancer for hire."
   avatar: bio-photo.jpg # 160x160 px image for author byline
 
 # Build settings
@@ -174,5 +174,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
