@@ -32,7 +32,7 @@ section.section__contact {
         color: white;
         text-decoration: none;
         &:hover {
-          transform: translate(2px, 5px);
+          box-shadow: 5px 5px 5px;
         }
       }
       .btn-twitter {
