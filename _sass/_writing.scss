@@ -1,0 +1,14 @@
+section.section__writing {
+  height: 100vh;
+  background-image: url('../img/bg-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+  }
+}
